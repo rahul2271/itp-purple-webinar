@@ -23,7 +23,7 @@ export default function Footer(){
                         <p>
                         Office Hours :<br/>
                         10:00 AM - 8:00 PM<br/>
-                        ( Sunday Closed)
+                        
                         </p>
                         <p className="text-[#2C3753] font-bold text-xl">Follow Us</p>
                         <div className="flex gap-4">
