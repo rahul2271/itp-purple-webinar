@@ -13,23 +13,23 @@ const WebinarSection = () => {
               <p className="text-lg font-medium">
                 Causes of Infertility in Females <br />
                 Causes of Infertility in Males <br />
-                Infertility because of Biological incompatibility
+                What is Biological incompatibility?
               </p>
             </div>
             <div className="bg-orange-600 text-white p-6 rounded-lg shadow-lg">
-              <p className="text-lg font-medium">What are the risk factors of IVF?<br/>Why Ayurveda & Panchakarma for Infertility<br/>How it is better than IVF?</p>
+              <p className="text-lg font-medium">What are the risk factors of IVF?<br/>Why Ayurveda & Panchakarma for Infertility?<br/>How it is better than IVF?</p>
             </div>
             <div className="bg-[#47126B]  text-white p-6 rounded-lg shadow-lg">
-              <p className="text-lg font-medium">Diet & Lifestyle changes to to overcome M/F infertility</p>
+              <p className="text-lg font-medium">Diet & Lifestyle changes to overcome M/F Infertility</p>
             </div>
             <div className="bg-orange-600 text-white p-6 rounded-lg shadow-lg">
               <p className="text-lg font-medium">Benefits of Natural Pregnancy </p>
             </div>
             <div className="bg-[#47126B] text-white p-6 rounded-lg shadow-lg">
-              <p className="text-lg font-medium">Lab investication to rule out M/F Infertility <br/>Or<br/>Find the real cause</p>
+              <p className="text-lg font-medium">Lab investication to rule out <br/>M/F Infertility <br/>Or<br/>Find the Real Cause</p>
             </div>
             <div className="bg-orange-600 text-white p-6 rounded-lg shadow-lg">
-              <p className="text-lg font-medium">Panchakarma Therapies:-<br/>• Uttar Basti [Male,Female]<br/>• Virechana<br/>• Basti Karma</p>
+              <p className="text-lg font-medium">Panchakarma Therapies:-<br/>• Uttar Basti [Male/Female]<br/>• Virechana Karma<br/>• Basti Karma</p>
             </div>
           </div>
         </div>
