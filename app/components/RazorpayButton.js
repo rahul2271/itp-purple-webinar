@@ -10,7 +10,7 @@ const RazorpayButton = () => {
     // Create script element and set its attributes
     const script = document.createElement('script');
     script.src = 'https://checkout.razorpay.com/v1/payment-button.js';
-    script.dataset.payment_button_id = 'pl_KHgKgmzZUerVYK';
+    script.dataset.payment_button_id = 'pl_Ols46MjKLjGtfD';
     script.async = true;
 
     // Append script to form

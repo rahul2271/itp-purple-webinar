@@ -161,7 +161,7 @@ const Form = () => {
                             document.addEventListener("DOMContentLoaded", function() {
                               const script = document.createElement('script');
                               script.src = "https://checkout.razorpay.com/v1/payment-button.js";
-                              script.dataset.payment_button_id = "pl_OelN9YKzpJJ6Rh";
+                              script.dataset.payment_button_id = "pl_Ols46MjKLjGtfD";
                               script.async = true;
                               document.querySelector("form").appendChild(script);
                             });
