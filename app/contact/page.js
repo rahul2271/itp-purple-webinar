@@ -94,7 +94,7 @@ const Form = () => {
             <div className="rounded-[10px] shadow-black/50 p-6 flex items-center justify-center">
               <div  className="px-2 md:px-12">
                 <p className="text-left text-2xl font-bold text-[#2C3753] md:text-xl">
-                  Register now for <span className='text-[#F14A04] text-2xl'>Rs.299/-</span>  only !
+                  Register now for <span className='text-[#F14A04] text-2xl'>Rs.99/-</span>  only !
                 </p>
                 {/* <p className="font-light text-left mt-4 text-lg md:text-sm text-[#2C3753]">
                   Submit Your Details Now, to Get a Call Back!!!
@@ -161,7 +161,7 @@ const Form = () => {
                             document.addEventListener("DOMContentLoaded", function() {
                               const script = document.createElement('script');
                               script.src = "https://checkout.razorpay.com/v1/payment-button.js";
-                              script.dataset.payment_button_id = "pl_Ols46MjKLjGtfD";
+                              script.dataset.payment_button_id = "pl_OelN9YKzpJJ6Rh";
                               script.async = true;
                               document.querySelector("form").appendChild(script);
                             });
