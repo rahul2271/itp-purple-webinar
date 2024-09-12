@@ -20,7 +20,7 @@ const WebinarSection = () => {
               <p className="text-lg font-bold">How to Integrate Modern Medicines with Ayurveda & Panchakarma Treatment Methods</p>
             </div>
             <div className="bg-[#75269b]  text-white p-6 rounded-lg shadow-lg">
-              <p className="text-lg text-left font-light"><span className='font-bold text-2xl' >You'll Stop Worrying About</span><br/>
+              <p className="text-lg text-left font-light"><span className='font-bold text-2xl' >You will Stop Worrying About</span><br/>
 
               • Misdiagnosis<br/>
               • Long-Term Side Effects<br/>
