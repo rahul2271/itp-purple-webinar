@@ -40,15 +40,15 @@ const Countdown = ({ eventDate }) => {
 
   return (
     <div className="text-center">
-      <h2 className="md:text-5xl text-2xl text-[#47126B] font-regular mt-[25px] mb-4">Webinar Starts In:</h2>
-      <div className='mx-auto w-max place-content-center'><hr style={{ width: '350px', borderColor: '#F14A04', borderWidth: '1px', borderStyle: 'solid' }} /></div>
+      <h2 className="md:text-5xl text-2xl text-[#4d4d4d] font-regular mt-[25px] mb-4">Webinar Starts In:</h2>
+      <div className='mx-auto w-max place-content-center'><hr style={{ width: '350px', borderColor: '#75269b', borderWidth: '1px', borderStyle: 'solid' }} /></div>
       <div className="flex mt-[20px] justify-center md:gap-[50px] gap-[25px] text-lg">
         {Object.keys(timeLeft).map((interval) => (
           <div key={interval} className="text-center">
-            <div className="border-2 md:p-[20px] p-[5px] border-[#47126B] text-3xl md:text-7xl font-light text-[#F14A04]">
+            <div className="border-2 md:p-[20px] p-[5px] border-[#4d4d4d] text-3xl md:text-7xl font-light text-[#75269b]">
               {timeLeft[interval]}
             </div>
-            <div className="md:text-[25px] text-[#47126B]">{interval}</div>
+            <div className="md:text-[25px] text-[#4d4d4d]">{interval}</div>
           </div>
         ))}
       </div>

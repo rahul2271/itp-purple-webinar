@@ -8,11 +8,12 @@ import Doctor from '../components/dr';
 import WebinarSection from '../components/WebinarSection';
 import Testimonials from '../components/Testimonials';
 import Link from 'next/link';
+import Blog from '../components/blogs';
 import Youtube from '../components/youtube';
 
 
 
- const eventDate = '2024-08-27T00:00:00'
+ const eventDate = '2024-09-24T19:00:00'
 
 const Form = () => {
   const [showTick, setShowTick] = useState(false);
@@ -79,7 +80,7 @@ const Form = () => {
 
       <div className=' mt-[15px] md:mt-[50px] '><Carousel/></div>
       <Link href = '/#forem'>
-      <div className='bg-[#47126B] text-center'>
+      <div className='bg-[#75269b] text-center'>
         <p className='animate-pulse text-white text-[15px] md:text-[50px]'>Yes, I want to attend this Webinar ( Only 100 Seats ) Limited Seats Available</p>
       </div>
       </Link>
@@ -94,7 +95,7 @@ const Form = () => {
             <div className="rounded-[10px] shadow-black/50 p-6 flex items-center justify-center">
               <div  className="px-2 md:px-12">
                 <p className="text-left text-2xl font-bold text-[#2C3753] md:text-xl">
-                  Register now for <span className='text-[#F14A04] text-2xl'>Rs.99/-</span>  only !
+                  Register now for <span className='text-[#c65ff6] text-2xl'>Rs.99/-</span>  only !
                 </p>
                 {/* <p className="font-light text-left mt-4 text-lg md:text-sm text-[#2C3753]">
                   Submit Your Details Now, to Get a Call Back!!!
@@ -190,7 +191,7 @@ const Form = () => {
             <div className="mt-[10px] md:mt-[0px] relative pb-[60%] w-full lg:col-span-1">
               <iframe
                 className='absolute top-0 left-0 w-full h-full rounded-b-[20px]'
-                src="https://www.youtube.com/embed/EqW-WqWmZds?si=eQoIhB7t_5cxtkyp?autoplay=1&controls=0&playsinline=1"
+                src="https://www.youtube.com/embed/pAkTnSAB8eM?si=il640sGGOdxroeV5?autoplay=1&controls=0&playsinline=1"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -203,6 +204,7 @@ const Form = () => {
 
 
           <Doctor/>
+          <Blog/>             
           {/* <Youtube/> */}
           <Testimonials/>
         </div>

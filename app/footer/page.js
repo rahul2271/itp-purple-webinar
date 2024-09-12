@@ -7,7 +7,7 @@ export default function Footer(){
     return(
         <>
         <div className="hidden md:block bg-[#47126B]/20 mt-[50px]">
-            <div className="bg-[#F14A04] pt-[10px] pb-[10px] text-center">
+            <div className="bg-[#75269b] pt-[10px] pb-[10px] text-center">
                 <p className="text-[15px] text-white">DISCLAIMER : * This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
             </div>
             <div className="space-x-[100px] m-auto w-max place-content-center m-auto w-max  pt-[25px] pb-[50px] flex">

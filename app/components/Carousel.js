@@ -20,14 +20,12 @@ const Carousel = () => {
     <div className='' >
       <Slider {...settings}>
         <div>
-          <img src="./b2.jpg" alt="Slide 1"  />
+          <img src="./gb1.jpg" alt="Slide 1"  />
         </div>
         <div>
-          <img src="./b1.jpg" alt="Slide 2" />
+          <img src="./gb2.jpg" alt="Slide 2" />
         </div>
-        <div>
-          <img src="./b3.jpg" alt="Slide 2" />
-        </div>
+
         {/* <div>
           <img src="/images/slide3.jpg" alt="Slide 3" className={styles.slideImage} />
         </div> */}

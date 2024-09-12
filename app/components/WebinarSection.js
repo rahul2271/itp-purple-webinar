@@ -4,32 +4,52 @@ const WebinarSection = () => {
   return (
     <div className="md:mt-[50px] bg-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="md:text-5xl text-2xl font-regular text-[#47126B] text-center">About the Webinar</h2>
-        <div className='mx-auto w-max place-content-center'><hr style={{ width: '350px', borderColor: '#F14A04', borderWidth: '1px', borderStyle: 'solid' }} /></div>
+        <h2 className="md:text-5xl text-2xl font-regular text-[#4d4d4d] text-center">About the Webinar</h2>
+        <div className='mx-auto w-max place-content-center'><hr style={{ width: '350px', borderColor: '#75269b', borderWidth: '1px', borderStyle: 'solid' }} /></div>
         <div className="mt-8 text-center">
           <p className="text-xl font-semibold text-gray-900">What will you learn?</p>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[20px]">
-            <div className="bg-[#47126B]  text-white p-6 rounded-lg shadow-lg">
-              <p className="text-lg font-medium">
-                Causes of Infertility in Females <br />
-                Causes of Infertility in Males <br />
-                What is Biological incompatibility?
+          <div className="bg-[#75269b] text-white p-6 rounded-lg shadow-lg flex justify-center items-center h-full">
+  <p className="text-lg font-bold text-center">
+    Living with ITP, Handling Emergencies with Ease,  
+    Eat Well to Support Healing, Handling Mental Stress,  
+    & Why Ayurveda is Your Only Hope?
+  </p>
+</div>
+            <div className="bg-[#4d4d4d] text-white p-6 rounded-lg shadow-lg flex justify-center items-center h-full">
+              <p className="text-lg font-bold">How to Integrate Modern Medicines with Ayurveda & Panchakarma Treatment Methods</p>
+            </div>
+            <div className="bg-[#75269b]  text-white p-6 rounded-lg shadow-lg">
+              <p className="text-lg text-left font-light"><span className='font-bold text-2xl' >You'll Stop Worrying About</span><br/>
+
+              • Misdiagnosis<br/>
+              • Long-Term Side Effects<br/>
+              • Treatment Resistance<br/>
+              • Serious Complications<br/>
+              • Making Mistakes<br/>
+              • ITP Relapse<br/>
+              • Loss of Quality of Life</p>
+            </div>
+            <div className="bg-[#4d4d4d] text-white p-6 rounded-lg shadow-lg">
+              <p className="text-lg text-left font-light"><span className='font-bold text-2xl'>Get to Know!!!</span><br/>
+
+              • Why Ayurveda is the Best Treatment Option?<br/>
+              • Herbal Home Remedies to Increase Platelets<br/>
+              • Preventive Methods of ITP Reversal<br/>
+              • How Panchakarma Can Help You Regain Your Health? </p>
+            </div>
+            <div className="bg-[#75269b] text-white p-6 rounded-lg shadow-lg">
+              <p className="text-lg text-left font-light"><span className='font-bold text-2xl' >Know Your Herbs of Choice</span><br/>
+              • Ashwagandha<br/>
+              • Amla<br/>
+              • Moringa<br/>
+              • Carica Papaya leaves<br/>
+              • Giloy<br/>
+              • Durva Grass<br/>
               </p>
             </div>
-            <div className="bg-orange-600 text-white p-6 rounded-lg shadow-lg">
-              <p className="text-lg font-medium">What are the risk factors of IVF?<br/>Why Ayurveda & Panchakarma for Infertility?<br/>How it is better than IVF?</p>
-            </div>
-            <div className="bg-[#47126B]  text-white p-6 rounded-lg shadow-lg">
-              <p className="text-lg font-medium">Diet & Lifestyle changes to overcome M/F Infertility</p>
-            </div>
-            <div className="bg-orange-600 text-white p-6 rounded-lg shadow-lg">
-              <p className="text-lg font-medium">Benefits of Natural Pregnancy </p>
-            </div>
-            <div className="bg-[#47126B] text-white p-6 rounded-lg shadow-lg">
-              <p className="text-lg font-medium">Lab investication to rule out <br/>M/F Infertility <br/>Or<br/>Find the Real Cause</p>
-            </div>
-            <div className="bg-orange-600 text-white p-6 rounded-lg shadow-lg">
-              <p className="text-lg font-medium">Panchakarma Therapies:-<br/>• Uttar Basti [Male/Female]<br/>• Virechana Karma<br/>• Basti Karma</p>
+            <div className="bg-[#4d4d4d] text-white p-6 rounded-lg shadow-lg flex justify-center items-center h-full">
+              <p className="text-lg text-left font-bold text-center">Tips to make your Home & Other surroundings safe, lessens chances of injury.</p>
             </div>
           </div>
         </div>
