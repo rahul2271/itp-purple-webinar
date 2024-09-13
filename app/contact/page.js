@@ -10,6 +10,7 @@ import Testimonials from '../components/Testimonials';
 import Link from 'next/link';
 import Blog from '../components/blogs';
 import Youtube from '../components/youtube';
+import VideoSection from '../components/Yt';
 
 
 
@@ -204,7 +205,8 @@ const Form = () => {
 
 
           <Doctor/>
-          <Blog/>             
+          <Blog/>       
+          <VideoSection/>    
           {/* <Youtube/> */}
           <Testimonials/>
         </div>
