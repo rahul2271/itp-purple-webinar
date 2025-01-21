@@ -17,7 +17,7 @@ const FacebookPixel = () => {
       };
       window.fbq.version = '2.0';
       window.fbq.queue = [];
-      window.fbq('init', 'YOUR_PIXEL_ID'); // Replace with your actual Pixel ID
+      window.fbq('init', '454652642664487'); // Replace with your actual Pixel ID
       window.fbq('track', 'PageView'); // Track PageView by default
     };
 
