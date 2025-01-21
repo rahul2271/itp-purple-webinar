@@ -4,6 +4,7 @@ import Header from "./header/page";
 import Footer from "./footer/page";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import FacebookPixel from './components/FacebookPixel';
 
 
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head><link rel="icon" href="/favicon.ico" /></head>
       <body className={poppins.className}>
+    <FacebookPixel /> {/* Add Facebook Pixel here */}
       <Header/>
       {children}
       <Footer/>
